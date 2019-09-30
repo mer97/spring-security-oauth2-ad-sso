@@ -20,9 +20,9 @@ public class OrderRestController {
     private ObjectMapper objectMapper = new ObjectMapper();
 
     /**
-     * 获取用户列表。
+     * 获取订单列表。
      * 权限验证：
-     *      当请求/api/v1/order/list接口时，判断该用户是否拥有“USER”权限。
+     *      当请求/api/v1/order/list接口时，判断该用户是否拥有“ORDER”权限。
      *
      * @return
      */
