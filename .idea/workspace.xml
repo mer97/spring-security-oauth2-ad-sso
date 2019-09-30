@@ -69,6 +69,7 @@
       <find>AuthorizationEndpoint</find>
       <find>css/style.css</find>
       <find>http://localhost:8080/logout</find>
+      <find>spring-security-oauth2</find>
     </findStrings>
     <replaceStrings>
       <replace />
