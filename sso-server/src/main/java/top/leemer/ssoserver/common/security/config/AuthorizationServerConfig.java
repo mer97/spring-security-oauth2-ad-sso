@@ -1,6 +1,6 @@
 package top.leemer.ssoserver.common.security.config;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.oauth2.config.annotation.configurers.ClientDetailsServiceConfigurer;
@@ -11,7 +11,6 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Aut
 import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter;
 import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 
-import javax.sql.DataSource;
 
 /**
  * @author LEEMER
@@ -21,24 +20,39 @@ import javax.sql.DataSource;
 @EnableAuthorizationServer
 public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdapter {
 
-    @Autowired
-    private DataSource dataSource;
+    @Value("${app.jwt.key-value}")
+    private String jwtKeyValue;
 
     @Override
     public void configure(AuthorizationServerSecurityConfigurer security) throws Exception {
-        security.allowFormAuthenticationForClients();
-        security.tokenKeyAccess("isAuthenticated()");
+        security.allowFormAuthenticationForClients()
+                .tokenKeyAccess("isAuthenticated()");
     }
 
     @Override
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
-        clients.jdbc(dataSource);
+        clients.inMemory()
+                .withClient("OrderManagement")
+                .secret("$2a$10$8yVwRGY6zB8wv5o0kRgD0ep/HVcvtSZUZsYu/586Egxc1hv3cI9Q6")
+                .authorizedGrantTypes("authorization_code", "refresh_token")
+                .redirectUris("http://localhost:8082/orderSystem/login")
+                .accessTokenValiditySeconds(60) //秒
+                .autoApprove(true)
+                .scopes("all")
+                .and()
+                .withClient("UserManagement")
+                .secret("$2a$10$ZRmPFVgE6o2aoaK6hv49pOt5BZIKBDLywCaFkuAs6zYmRkpKHgyuO")
+                .authorizedGrantTypes("authorization_code", "refresh_token")
+                .redirectUris("http://localhost:8081/userSystem/login")
+                .accessTokenValiditySeconds(60)
+                .autoApprove(true)
+                .scopes("all");
     }
 
     @Override
     public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Exception {
-        endpoints.accessTokenConverter(jwtAccessTokenConverter());
-        endpoints.tokenStore(jwtTokenStore());
+        endpoints.accessTokenConverter(jwtAccessTokenConverter())
+                .tokenStore(jwtTokenStore());
     }
 
     @Bean
@@ -49,7 +63,7 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
     @Bean
     public JwtAccessTokenConverter jwtAccessTokenConverter() {
         JwtAccessTokenConverter jwtAccessTokenConverter = new JwtAccessTokenConverter();
-        jwtAccessTokenConverter.setSigningKey("leemer");   // JWT key-value
+        jwtAccessTokenConverter.setSigningKey(jwtKeyValue);   // JWT key-value
         return jwtAccessTokenConverter;
     }
 

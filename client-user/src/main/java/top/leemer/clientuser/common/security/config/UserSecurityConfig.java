@@ -56,6 +56,7 @@ public class UserSecurityConfig extends WebSecurityConfigurerAdapter {
                 .logoutUrl("/api/v1/logout")
                 .logoutSuccessUrl(ssoLogoutUrl)
                 .invalidateHttpSession(true)
+//                .deleteCookies("JSESSIONID")
                 .and()
             .csrf()
                 .disable()

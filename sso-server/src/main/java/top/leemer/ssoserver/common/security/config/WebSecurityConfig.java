@@ -57,7 +57,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     }
 
     @Override
-    public void configure(WebSecurity web) throws Exception {
+    public void configure(WebSecurity web){
         web.ignoring().antMatchers("/assets/**", "/css/**", "/images/**");
     }
 
@@ -71,6 +71,10 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/login").permitAll()
                 .anyRequest()
                 .authenticated()
+                .and()
+                .logout()
+                .invalidateHttpSession(true)
+//                .deleteCookies("JSESSIONID")
                 .and()
                 .csrf()
                 .disable()
