@@ -1,8 +1,10 @@
 package top.leemer.ssoserver.common.security.config;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.oauth2.config.annotation.configurers.ClientDetailsServiceConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerConfigurerAdapter;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
@@ -20,6 +22,9 @@ import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 @EnableAuthorizationServer
 public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdapter {
 
+    @Autowired
+    private PasswordEncoder passwordEncoder;
+
     @Value("${app.jwt.key-value}")
     private String jwtKeyValue;
 
@@ -32,19 +37,17 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
     @Override
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
         clients.inMemory()
-                .withClient("OrderManagement")
-                .secret("$2a$10$8yVwRGY6zB8wv5o0kRgD0ep/HVcvtSZUZsYu/586Egxc1hv3cI9Q6")
+                .withClient("orderManagement")
+                .secret(passwordEncoder.encode("orderSecret"))
                 .authorizedGrantTypes("authorization_code", "refresh_token")
                 .redirectUris("http://localhost:8082/orderSystem/login")
-                .accessTokenValiditySeconds(60) //秒
                 .autoApprove(true)
                 .scopes("all")
                 .and()
-                .withClient("UserManagement")
-                .secret("$2a$10$ZRmPFVgE6o2aoaK6hv49pOt5BZIKBDLywCaFkuAs6zYmRkpKHgyuO")
+                .withClient("userManagement")
+                .secret(passwordEncoder.encode("userSecret"))
                 .authorizedGrantTypes("authorization_code", "refresh_token")
                 .redirectUris("http://localhost:8081/userSystem/login")
-                .accessTokenValiditySeconds(60)
                 .autoApprove(true)
                 .scopes("all");
     }

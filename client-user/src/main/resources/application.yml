@@ -7,8 +7,8 @@ server:
 security:
   oauth2:
     client:
-      client-id: UserManagement
-      client-secret: user123
+      client-id: userManagement
+      client-secret: userSecret
       access-token-uri: http://localhost:8080/oauth/token
       user-authorization-uri: http://localhost:8080/oauth/authorize
     resource:

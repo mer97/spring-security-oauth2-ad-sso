@@ -2,61 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08f0eacb-ee26-4b68-b6cc-19f4948fe915" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_56.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_39_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_39_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_39_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_39_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_39_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_39_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_12_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_11_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_23_2_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_2_1_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_session_spring_session_core_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_session_spring_session_data_redis_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_9_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-order/src/main/java/top/leemer/clientorder/common/security/config/OrderSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-order/src/main/java/top/leemer/clientorder/common/security/config/OrderSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-order/src/main/java/top/leemer/clientorder/order/controller/OrderPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-order/src/main/java/top/leemer/clientorder/order/controller/OrderPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-order/src/main/resources/templates/web/order/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/client-order/src/main/resources/templates/web/order/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-user/src/main/java/top/leemer/clientuser/common/security/config/UserSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-user/src/main/java/top/leemer/clientuser/common/security/config/UserSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-user/src/main/java/top/leemer/clientuser/user/controller/UserPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-user/src/main/java/top/leemer/clientuser/user/controller/UserPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-user/src/main/resources/templates/web/user/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/client-user/src/main/resources/templates/web/user/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sso-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sso-server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sso-server/src/main/java/top/leemer/ssoserver/common/security/config/AuthorizationServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso-server/src/main/java/top/leemer/ssoserver/common/security/config/AuthorizationServerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sso-server/src/main/java/top/leemer/ssoserver/common/security/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso-server/src/main/java/top/leemer/ssoserver/common/security/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sso-server/src/main/java/top/leemer/ssoserver/common/security/service/MyLdapUserDetailsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso-server/src/main/java/top/leemer/ssoserver/common/security/service/MyLdapUserDetailsMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sso-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sso-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sso-server/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sso-server/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/sso-server/target/" />
     <ignored path="$PROJECT_DIR$/client-user/target/" />
@@ -70,23 +18,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sso-server/src/main/resources/application.yml">
+      <file leaf-file-name="AuthorizationServerConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sso-server/src/main/java/top/leemer/ssoserver/common/security/config/AuthorizationServerConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-server/src/main/java/top/leemer/ssoserver/common/security/config/WebSecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-95">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="145">
+              <caret line="46" column="45" lean-forward="true" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
               <folding>
-                <element signature="e#2307#2308#0" expanded="true" />
-                <element signature="e#2388#2389#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,29 +33,8 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client-user/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyLdapUserDetailsMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-server/src/main/java/top/leemer/ssoserver/common/security/service/MyLdapUserDetailsMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthorizationServerConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-server/src/main/java/top/leemer/ssoserver/common/security/config/AuthorizationServerConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="261">
+              <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -187,7 +104,6 @@
         <option value="$PROJECT_DIR$/client-user/src/main/resources/org/springframework/security/messages_zh_CN.properties" />
         <option value="$PROJECT_DIR$/client-user/src/main/resources/messages_zh_CN.properties" />
         <option value="$PROJECT_DIR$/client-user/src/main/java/top/leemer/clientuser/common/bean/ErrorResponse.java" />
-        <option value="$PROJECT_DIR$/client-user/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/sso-server/src/main/resources/static/assets/js/login.js" />
         <option value="$PROJECT_DIR$/client-user/src/main/java/top/leemer/clientuser/common/security/config/SecurityMessages.java" />
         <option value="$PROJECT_DIR$/client-user/src/main/java/top/leemer/clientuser/common/bean/AjaxAuthFailureHandler.java" />
@@ -222,6 +138,7 @@
         <option value="$PROJECT_DIR$/sso-server/src/main/java/top/leemer/ssoserver/common/security/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/client-user/src/main/java/top/leemer/clientuser/user/controller/UserPageController.java" />
         <option value="$PROJECT_DIR$/sso-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/client-user/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/sso-server/src/main/java/top/leemer/ssoserver/common/security/config/AuthorizationServerConfig.java" />
       </list>
     </option>
@@ -266,32 +183,6 @@
             <path>
               <item name="spring-security-oauth2-ad-sso" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-security-oauth2-ad-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="client-user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-security-oauth2-ad-sso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-security-oauth2-ad-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="client-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-security-oauth2-ad-sso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-security-oauth2-ad-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="client-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-security-oauth2-ad-sso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-security-oauth2-ad-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="client-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-security-oauth2-ad-sso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-security-oauth2-ad-sso" type="462c0819:PsiDirectoryNode" />
               <item name="sso-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -356,19 +247,6 @@
               <item name="leemer" type="462c0819:PsiDirectoryNode" />
               <item name="ssoserver" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-security-oauth2-ad-sso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-security-oauth2-ad-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="sso-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="leemer" type="462c0819:PsiDirectoryNode" />
-              <item name="ssoserver" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-security-oauth2-ad-sso" type="b2602c69:ProjectViewProjectNode" />
@@ -396,37 +274,6 @@
               <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="security" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-security-oauth2-ad-sso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-security-oauth2-ad-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="sso-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="leemer" type="462c0819:PsiDirectoryNode" />
-              <item name="ssoserver" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-security-oauth2-ad-sso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-security-oauth2-ad-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="sso-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-security-oauth2-ad-sso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-security-oauth2-ad-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="sso-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -599,7 +446,7 @@
       <workItem from="1569736624360" duration="2480000" />
       <workItem from="1569807718524" duration="688000" />
       <workItem from="1569820951807" duration="125000" />
-      <workItem from="1570591985568" duration="4078000" />
+      <workItem from="1570591985568" duration="5246000" />
     </task>
     <servers />
   </component>
@@ -609,7 +456,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69277000" />
+    <option name="totallyTimeSpent" value="70445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -634,10 +481,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2977208" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3888889" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32994187" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3257468" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4121984" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32478634" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2386059" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="JRebel" order="2" side_tool="true" />
@@ -910,16 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="20" column="94" lean-forward="true" selection-start-line="20" selection-start-column="94" selection-end-line="20" selection-end-column="94" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client-user/src/main/resources/templates/web/user/list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -941,9 +778,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="45" column="44" lean-forward="true" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sso-server/src/main/java/top/leemer/ssoserver/common/security/config/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
+        <state relative-caret-position="377">
           <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
           <folding>
             <element signature="e#2307#2308#0" expanded="true" />
@@ -952,27 +806,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client-user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sso-server/src/main/java/top/leemer/ssoserver/common/security/config/AuthorizationServerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+        <state relative-caret-position="145">
+          <caret line="46" column="45" lean-forward="true" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client-user/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
         </state>
       </provider>
     </entry>
