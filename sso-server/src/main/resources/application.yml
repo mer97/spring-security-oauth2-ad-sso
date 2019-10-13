@@ -13,5 +13,5 @@ app:
   jwt:
     key-value: leemer
   ldap:
-    url: ldap://10.1.226.91:389 # AD域连接地址
+    url: ldap://192.168.3.61:389 # AD域连接地址
     domain: contoso.com # 域名称

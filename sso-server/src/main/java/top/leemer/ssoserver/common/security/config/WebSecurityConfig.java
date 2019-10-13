@@ -27,7 +27,7 @@ import java.util.Arrays;
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
-    MyLdapUserDetailsMapper whLdapUserDetailsMapper;
+    MyLdapUserDetailsMapper myLdapUserDetailsMapper;
 
     /**
      * ajax请求失败处理器。
@@ -52,7 +52,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         provider.setUseAuthenticationRequestCredentials(true);
 
         //设置角色权限
-        provider.setUserDetailsContextMapper(whLdapUserDetailsMapper);
+        provider.setUserDetailsContextMapper(myLdapUserDetailsMapper);
         return provider;
     }
 
@@ -73,8 +73,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .authenticated()
                 .and()
                 .logout()
+                .clearAuthentication(true)
                 .invalidateHttpSession(true)
-//                .deleteCookies("JSESSIONID")
+                .deleteCookies("JSESSIONID")
                 .and()
                 .csrf()
                 .disable()
